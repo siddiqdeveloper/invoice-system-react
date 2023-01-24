@@ -1,8 +1,8 @@
 
 function AddInvoice() {
   return <>
-    <h1>Sublime</h1>
-  </>;
+    <h1>Add Invoice</h1>
+  </>
 }
 
 export default AddInvoice;

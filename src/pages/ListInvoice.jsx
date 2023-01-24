@@ -1,8 +1,8 @@
 
-function AddInvoice() {
+function ListInvoice() {
   return <>
-    <h1>Sublime</h1>
-  </>;
+    <h1>List Invoice</h1>
+  </>
 }
 
-export default AddInvoice;
+export default ListInvoice;

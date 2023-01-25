@@ -1,5 +1,5 @@
 import { Link,Outlet } from 'react-router-dom'
-function Layout() {
+const Layout = () => {
     return <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -28,7 +28,10 @@ function Layout() {
 </nav>
 
 <div className='container'>
-<Outlet></Outlet>
+  <div className='row'>
+  <Outlet></Outlet>
+  </div>
+
 </div>
     </>;
   }

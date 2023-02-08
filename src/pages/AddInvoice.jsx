@@ -76,8 +76,9 @@ setValues(e);
 
 } } className="form-control" name='status'>
       <option>Select</option>
+     <option value='pending'>Pending</option>
      <option value='patial'>Partial</option>
-     <option value='full'>Full</option>
+     <option value='paid'>Full</option>
    </select>
   </div>
   <br></br>
